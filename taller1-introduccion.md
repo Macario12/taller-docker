@@ -8,11 +8,11 @@ En este caso utilizaré Digital Ocean.
 ## Paso 1: Instalar e iniciar Docker
 Una vez tienes tu instancia y acceso a SSH de la misma, ingresa a la misma. Ejecuta como root o con permisos de root el siguiente comando, para actualizar los repositorios en la máquina virtual recién creada:
 ```
-apt-get update
+sudo apt-get update
 ```
 Luego ejecuta el siguiente comando para instalar Docker 
 ```
-apt-get install docker.io
+sudo apt-get install docker.io
 ```
 Luego iniciar el servicio si esta apagado con:
 ```
